@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T11:14:54.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="Cdu70tmv42yk3jin3hSx" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T11:35:47.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="5XfKwozBdiMx44j_Q9Le" version="24.0.7" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaB9GiJI3lMty1Uy9sra-12" target="xaB9GiJI3lMty1Uy9sra-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <mxPoint x="179.99999999999818" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xaB9GiJI3lMty1Uy9sra-36" target="xaB9GiJI3lMty1Uy9sra-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="350" as="sourcePoint" />
+            <mxPoint x="349.9999999999984" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xaB9GiJI3lMty1Uy9sra-39" target="xaB9GiJI3lMty1Uy9sra-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460.00000000000205" y="350" as="sourcePoint" />
+            <mxPoint x="535" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaB9GiJI3lMty1Uy9sra-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587.5000000000002" y="380" as="sourcePoint" />
+            <mxPoint x="587.5000000000002" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-36" value="购买家具" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="325" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-39" value="身份绑定认证" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="325" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-42" value="初始化默认偏好习惯" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="325" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-44" value="查询家具状态信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="470" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-45" value="调整家具状态参数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="620" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaB9GiJI3lMty1Uy9sra-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xaB9GiJI3lMty1Uy9sra-44" target="xaB9GiJI3lMty1Uy9sra-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="560" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
