@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T01:13:28.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="tqcpT_vuUqb30qoGa26u" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T01:21:39.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="Yw_u4SaDzJ3OI_8FeeY7" version="24.1.0" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1387" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xaB9GiJI3lMty1Uy9sra-36" value="购买家具" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="180" width="105" height="50" as="geometry" />
+          <mxGeometry x="293.75" y="200" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xaB9GiJI3lMty1Uy9sra-39" value="身份绑定认证" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="280" width="105" height="50" as="geometry" />
@@ -35,10 +35,10 @@
           <mxGeometry x="297.5" y="350" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xaB9GiJI3lMty1Uy9sra-44" value="查询家具状态信息" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="315" y="710" width="132.5" height="60" as="geometry" />
+          <mxGeometry x="280" y="440" width="132.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xaB9GiJI3lMty1Uy9sra-45" value="调整家具状态参数" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="790" width="132.5" height="60" as="geometry" />
+          <mxGeometry x="280" y="530" width="132.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xaB9GiJI3lMty1Uy9sra-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xaB9GiJI3lMty1Uy9sra-12" target="xaB9GiJI3lMty1Uy9sra-45" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -68,30 +68,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1TjIiwKGUceRQS6xYd8T-8" value="分析用户家具使用数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="480" width="132.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1TjIiwKGUceRQS6xYd8T-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1TjIiwKGUceRQS6xYd8T-3" target="1TjIiwKGUceRQS6xYd8T-8" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="720" y="453" as="sourcePoint" />
-            <mxPoint x="560" y="453" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="450" y="600" width="132.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1TjIiwKGUceRQS6xYd8T-10" value="给用户发送学习模式请求" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="630" width="152.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1TjIiwKGUceRQS6xYd8T-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1TjIiwKGUceRQS6xYd8T-3" target="1TjIiwKGUceRQS6xYd8T-10" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="100" y="660" as="sourcePoint" />
-            <mxPoint x="570" y="573" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="470" y="680" width="152.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1TjIiwKGUceRQS6xYd8T-12" value="给用户发送家具维修提醒" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="550" width="152.5" height="60" as="geometry" />
+          <mxGeometry x="440" y="760" width="152.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1TjIiwKGUceRQS6xYd8T-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1TjIiwKGUceRQS6xYd8T-3" target="1TjIiwKGUceRQS6xYd8T-12" edge="1">
+        <mxCell id="1TjIiwKGUceRQS6xYd8T-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1TjIiwKGUceRQS6xYd8T-3" target="6dMmDqlbMwz-XFutYdFi-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="95" y="680" as="sourcePoint" />
-            <mxPoint x="570" y="573" as="targetPoint" />
+            <mxPoint x="230" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1TjIiwKGUceRQS6xYd8T-14" value="家具安装传感器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -122,6 +110,27 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="805" y="480" as="sourcePoint" />
             <mxPoint x="650" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dMmDqlbMwz-XFutYdFi-7" value="智能服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6dMmDqlbMwz-XFutYdFi-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6dMmDqlbMwz-XFutYdFi-7" target="1TjIiwKGUceRQS6xYd8T-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="670" as="sourcePoint" />
+            <mxPoint x="460" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dMmDqlbMwz-XFutYdFi-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.013;entryY=0.617;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="6dMmDqlbMwz-XFutYdFi-7" target="1TjIiwKGUceRQS6xYd8T-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="705" as="sourcePoint" />
+            <mxPoint x="460" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dMmDqlbMwz-XFutYdFi-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6dMmDqlbMwz-XFutYdFi-7" target="1TjIiwKGUceRQS6xYd8T-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="715" as="sourcePoint" />
+            <mxPoint x="470" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
