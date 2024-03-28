@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T08:09:44.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="dWYNskUULrTRlcep9G7B" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T08:23:34.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="PMg2pgHI746G7p8zCjF0" version="24.2.0" type="github">
   <diagram name="第 1 页" id="8jwr1yB68v9hcRnRHFLA">
-    <mxGraphModel dx="1477" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="1774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,19 +60,19 @@
         <mxCell id="xDn7OaBj2y6qqKKTSdad-16" value="detect()&lt;div&gt;control()&lt;/div&gt;&lt;div&gt;transmit()&lt;/div&gt;&lt;div&gt;feedback()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xDn7OaBj2y6qqKKTSdad-13" vertex="1">
           <mxGeometry y="148" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xDn7OaBj2y6qqKKTSdad-21" value="控制中心" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="590" y="300" width="100" height="30" as="geometry">
-            <mxRectangle x="430" y="272" width="160" height="86" as="alternateBounds" />
+        <mxCell id="xDn7OaBj2y6qqKKTSdad-21" value="控制中心" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="210" width="160" height="210" as="geometry">
+            <mxRectangle x="590" y="300" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xDn7OaBj2y6qqKKTSdad-22" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xDn7OaBj2y6qqKKTSdad-21" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="xDn7OaBj2y6qqKKTSdad-22" value="compatibleFacility:List&lt;div&gt;transmitMedia:Erum&lt;/div&gt;&lt;div&gt;timeTask:List&lt;/div&gt;&lt;div&gt;drivers:List&lt;/div&gt;&lt;div&gt;model:Model&lt;/div&gt;&lt;div&gt;result:Result&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xDn7OaBj2y6qqKKTSdad-21" vertex="1">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="xDn7OaBj2y6qqKKTSdad-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="xDn7OaBj2y6qqKKTSdad-21" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="xDn7OaBj2y6qqKKTSdad-24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xDn7OaBj2y6qqKKTSdad-21" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="xDn7OaBj2y6qqKKTSdad-24" value="receiveMsg()&lt;div&gt;sendMsg()&lt;/div&gt;&lt;div&gt;analyse()&lt;/div&gt;&lt;div&gt;optimise()&lt;/div&gt;&lt;div&gt;control()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xDn7OaBj2y6qqKKTSdad-21" vertex="1">
+          <mxGeometry y="128" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="xDn7OaBj2y6qqKKTSdad-25" value="用户界面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="-80" width="160" height="240" as="geometry">
