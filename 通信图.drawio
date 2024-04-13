@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T13:31:07.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="O-v6DGjZyzvQCtUQHucU" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T13:42:03.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="rw6baTCp-cakX_5Myb4W" version="24.2.5" type="github">
   <diagram name="第 1 页" id="b7eeUQrJ6jahSCsW8798">
     <mxGraphModel dx="899" dy="1481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="20" y="210" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-3" value="：服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="520" width="70" height="30" as="geometry" />
+          <mxGeometry x="460" y="460.04" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-4" value="：UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="210" width="70" height="30" as="geometry" />
@@ -54,12 +54,12 @@
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="188" as="sourcePoint" />
-            <mxPoint x="250" y="188" as="targetPoint" />
+            <mxPoint x="160" y="246.95" as="sourcePoint" />
+            <mxPoint x="240" y="246.95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-15" value="登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="158" width="50" height="30" as="geometry" />
+          <mxGeometry x="175" y="218" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -76,26 +76,118 @@
             <mxPoint x="530" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YWEmdtPQ50aGRg39Ap58-19" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;校验登录信息，&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;&lt;br&gt;建立&lt;/span&gt;&lt;span style=&quot;font-family: ArialMT; font-size: 8.64pt;&quot;&gt;websocket&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;连接&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="340" width="120" height="40" as="geometry" />
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-19" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;校验登录信息，修改在线状态，&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;&lt;br&gt;建立&lt;/span&gt;&lt;span style=&quot;font-family: ArialMT; font-size: 8.64pt;&quot;&gt;websocket&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;连接&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-22" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;返回登录结果及&lt;/span&gt;&lt;span style=&quot;color:rgb(0,0,0);font-family:ArialMT;font-size:8.64pt;font-weight:normal;&quot;&gt;token&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="250" width="150" height="40" as="geometry" />
+          <mxGeometry x="140" y="270" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-23" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="249" y="242" as="sourcePoint" />
-            <mxPoint x="169" y="242" as="targetPoint" />
+            <mxPoint x="245" y="269.47" as="sourcePoint" />
+            <mxPoint x="165" y="269.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-25" value="发布球拍维修及定制服务需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="128" width="180" height="30" as="geometry" />
+          <mxGeometry x="100" y="150" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="153.17000000000002" as="sourcePoint" />
-            <mxPoint x="240" y="153" as="targetPoint" />
+            <mxPoint x="145" y="178.17000000000002" as="sourcePoint" />
+            <mxPoint x="240" y="178" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="667.5" y="209.13" as="sourcePoint" />
+            <mxPoint x="590" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-29" value="接单(粘胶皮，球拍维修，球拍定制)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="524" y="180" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="sourcePoint" />
+            <mxPoint x="410" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-31" value="查询附近球友" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="208.95" as="sourcePoint" />
+            <mxPoint x="380" y="208.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-33" value="redis查询附近球友" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="345" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-36" value="redis消息队列缓存约球邀请" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" target="YWEmdtPQ50aGRg39Ap58-3" parent="1" source="YWEmdtPQ50aGRg39Ap58-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="475.04" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="460.04" />
+              <mxPoint x="560" y="505.04" />
+              <mxPoint x="530" y="505.04" />
+            </Array>
+            <mxPoint x="535" y="505.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-37" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-38" value="附近球友列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="255" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684" y="235" as="sourcePoint" />
+            <mxPoint x="574" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-40" value="查询服务需求列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="569" y="233" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-42" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="586.5" y="270" as="sourcePoint" />
+            <mxPoint x="661.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-43" value="服务需求列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="574" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="120" as="sourcePoint" />
+            <mxPoint x="470" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-45" value="上线时收到&lt;div&gt;约球邀请&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="392" y="63" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-47" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="50" as="sourcePoint" />
+            <mxPoint x="510" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-48" value="接受或&lt;div&gt;拒绝邀请&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="508" y="63" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-49" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="289.57" as="sourcePoint" />
+            <mxPoint x="300" y="289.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-50" value="约球请求结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="287" y="291" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
