@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T13:42:03.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="rw6baTCp-cakX_5Myb4W" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T13:43:33.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="xhwHDdk2uNqftiWO6U1V" version="24.2.5" type="github">
   <diagram name="第 1 页" id="b7eeUQrJ6jahSCsW8798">
-    <mxGraphModel dx="899" dy="1481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,8 @@
             <mxPoint x="530" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YWEmdtPQ50aGRg39Ap58-19" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;校验登录信息，修改在线状态，&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;&lt;br&gt;建立&lt;/span&gt;&lt;span style=&quot;font-family: ArialMT; font-size: 8.64pt;&quot;&gt;websocket&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;连接&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="340" width="170" height="40" as="geometry" />
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-19" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;校验登录信息，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;修改在线状态，&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;&lt;br&gt;建立&lt;/span&gt;&lt;span style=&quot;font-family: ArialMT; font-size: 8.64pt;&quot;&gt;websocket&lt;/span&gt;&lt;span style=&quot;font-family: MicrosoftYaHei; font-size: 8.64pt;&quot;&gt;连接&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-22" value="&lt;span style=&quot;color:rgb(0,0,0);font-family:MicrosoftYaHei;font-size:8.64pt;font-weight:normal;&quot;&gt;返回登录结果及&lt;/span&gt;&lt;span style=&quot;color:rgb(0,0,0);font-family:ArialMT;font-size:8.64pt;font-weight:normal;&quot;&gt;token&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="270" width="150" height="40" as="geometry" />
@@ -188,6 +188,15 @@
         </mxCell>
         <mxCell id="YWEmdtPQ50aGRg39Ap58-50" value="约球请求结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="287" y="291" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-51" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="650" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWEmdtPQ50aGRg39Ap58-52" value="附近球友&lt;div&gt;列表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="355" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
