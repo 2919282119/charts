@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T07:56:48.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="Ha2rtcvh5KdYurWg6rfb" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T08:06:34.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.1311 SLBChan/11" etag="0iZ78fTgHj2Aw6d_wT8O" version="24.2.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="862" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="brgdM_ip_KjS1nYenWTX-2" value=":用户界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="220" y="50" width="100" height="300" as="geometry" />
+          <mxGeometry x="180" y="60" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="brgdM_ip_KjS1nYenWTX-6" value=":服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="375" y="50" width="100" height="300" as="geometry" />
+          <mxGeometry x="670" y="60" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="brgdM_ip_KjS1nYenWTX-7" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="110" y="50" width="50" height="310" as="geometry" />
@@ -18,6 +18,21 @@
         </mxCell>
         <mxCell id="brgdM_ip_KjS1nYenWTX-5" value=":用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="brgdM_ip_KjS1nYenWTX-7">
           <mxGeometry y="6" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="brgdM_ip_KjS1nYenWTX-15" value=":地理位置" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="425" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="brgdM_ip_KjS1nYenWTX-16" value=":个人信息" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="brgdM_ip_KjS1nYenWTX-17" value=":附近球友列表" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="brgdM_ip_KjS1nYenWTX-19" value=":球友" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="790" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="brgdM_ip_KjS1nYenWTX-20" value=":教练" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="910" y="60" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
