@@ -1,19 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="611" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TGuNfWbs7z0YhE9qhTbN-18" value="上游—中游企业匹配" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="430" width="290" height="510" as="geometry" />
+          <mxGeometry x="1020" y="310" width="1050" height="1370" as="geometry" />
         </mxCell>
-        <mxCell id="TGuNfWbs7z0YhE9qhTbN-19" value="硬件厂商（上游）" style="swimlane;startSize=20;html=1;" parent="TGuNfWbs7z0YhE9qhTbN-18" vertex="1">
-          <mxGeometry y="20" width="140" height="490" as="geometry">
+        <mxCell id="TGuNfWbs7z0YhE9qhTbN-19" value="智能单品制造商（中游）" style="swimlane;startSize=20;html=1;" parent="TGuNfWbs7z0YhE9qhTbN-18" vertex="1">
+          <mxGeometry y="20" width="510" height="1350" as="geometry">
             <mxRectangle y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGuNfWbs7z0YhE9qhTbN-20" value="智能单品制造商（中游）" style="swimlane;startSize=20;html=1;" parent="TGuNfWbs7z0YhE9qhTbN-18" vertex="1">
-          <mxGeometry x="140" y="20" width="150" height="490" as="geometry" />
+        <mxCell id="G4k473hNy3UlmJ6TiarO-7" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="TGuNfWbs7z0YhE9qhTbN-19">
+          <mxGeometry x="200" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="G4k473hNy3UlmJ6TiarO-7" parent="TGuNfWbs7z0YhE9qhTbN-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-12" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TGuNfWbs7z0YhE9qhTbN-19">
+          <mxGeometry x="155" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="G4k473hNy3UlmJ6TiarO-12" parent="TGuNfWbs7z0YhE9qhTbN-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGuNfWbs7z0YhE9qhTbN-20" value="硬件厂商（上游）" style="swimlane;startSize=20;html=1;" parent="TGuNfWbs7z0YhE9qhTbN-18" vertex="1">
+          <mxGeometry x="510" y="20" width="540" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-14" value="上游—中游企业匹配" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360.00000000000045" y="370" width="460" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-15" value="智能单品制造商（中游）" style="swimlane;startSize=20;html=1;" vertex="1" parent="G4k473hNy3UlmJ6TiarO-14">
+          <mxGeometry y="20" width="170" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-16" value="硬件厂商（上游）" style="swimlane;startSize=20;html=1;" vertex="1" parent="G4k473hNy3UlmJ6TiarO-14">
+          <mxGeometry x="170" y="20" width="140" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="G4k473hNy3UlmJ6TiarO-17" value="软件厂商（上游）" style="swimlane;startSize=20;html=1;" vertex="1" parent="G4k473hNy3UlmJ6TiarO-14">
+          <mxGeometry x="310" y="20" width="150" height="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
