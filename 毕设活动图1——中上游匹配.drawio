@@ -212,8 +212,8 @@
             <mxPoint x="159.99999999999955" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G4k473hNy3UlmJ6TiarO-87" value="加入合作企业列表，便于下次合作" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="G4k473hNy3UlmJ6TiarO-17" vertex="1">
-          <mxGeometry x="99.99999999999955" y="1070" width="120" height="40" as="geometry" />
+        <mxCell id="G4k473hNy3UlmJ6TiarO-87" value="加入合作企业列表，便于下次合作" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="G4k473hNy3UlmJ6TiarO-17" vertex="1">
+          <mxGeometry x="99.99999999999955" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G4k473hNy3UlmJ6TiarO-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="G4k473hNy3UlmJ6TiarO-17" source="G4k473hNy3UlmJ6TiarO-87" edge="1">
           <mxGeometry relative="1" as="geometry">
