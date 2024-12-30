@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="zuvDvYUHsLtVDL6s6j0I">
-    <mxGraphModel dx="1764" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="588" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,13 +65,13 @@
         <mxCell id="y8jx_cZr0RisDGSgqpCn-16" value="成功入驻平台，发送认证成功邮件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1360" y="580" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y8jx_cZr0RisDGSgqpCn-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="y8jx_cZr0RisDGSgqpCn-16" parent="1" target="y8jx_cZr0RisDGSgqpCn-22">
+        <mxCell id="y8jx_cZr0RisDGSgqpCn-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="y8jx_cZr0RisDGSgqpCn-16" parent="1" target="y8jx_cZr0RisDGSgqpCn-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="690" as="targetPoint" />
+            <mxPoint x="1420" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y8jx_cZr0RisDGSgqpCn-18" value="根据企业注册时所属类型和基本信息给该企业推荐上下游合作企业" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1345" y="760" width="150" height="60" as="geometry" />
+          <mxGeometry x="1345" y="680" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y8jx_cZr0RisDGSgqpCn-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="y8jx_cZr0RisDGSgqpCn-18" parent="1" target="y8jx_cZr0RisDGSgqpCn-20">
           <mxGeometry relative="1" as="geometry">
@@ -79,15 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y8jx_cZr0RisDGSgqpCn-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="870" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="y8jx_cZr0RisDGSgqpCn-22" value="中游企业上传BOM表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1355" y="670" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="y8jx_cZr0RisDGSgqpCn-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="y8jx_cZr0RisDGSgqpCn-22" parent="1" target="y8jx_cZr0RisDGSgqpCn-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="760" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="1405" y="790" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
