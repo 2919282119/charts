@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6FkhRscBWC2Em_Lyi6Ba-1" value="消费者个性化定制" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="114" width="1080" height="1130" as="geometry" />
+          <mxGeometry x="380" y="114" width="1070" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="6FkhRscBWC2Em_Lyi6Ba-2" value="消费者" style="swimlane;startSize=20;html=1;" vertex="1" parent="6FkhRscBWC2Em_Lyi6Ba-1">
-          <mxGeometry y="20" width="540" height="1110" as="geometry" />
+          <mxGeometry y="20" width="540" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="6FkhRscBWC2Em_Lyi6Ba-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="6FkhRscBWC2Em_Lyi6Ba-2">
           <mxGeometry x="180" y="40" width="30" height="30" as="geometry" />
@@ -86,7 +86,7 @@
           <mxGeometry x="255" y="926" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6FkhRscBWC2Em_Lyi6Ba-3" value="智能家居单品厂商" style="swimlane;startSize=20;html=1;" vertex="1" parent="6FkhRscBWC2Em_Lyi6Ba-1">
-          <mxGeometry x="540" y="20" width="540" height="1110" as="geometry" />
+          <mxGeometry x="540" y="20" width="530" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="6FkhRscBWC2Em_Lyi6Ba-29" value="查看消费者提交的设计方案" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="6FkhRscBWC2Em_Lyi6Ba-3">
           <mxGeometry x="200" y="546" width="120" height="40" as="geometry" />
