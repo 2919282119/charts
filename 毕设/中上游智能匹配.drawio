@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3" pages="7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="中上游智能匹配">
     <mxGraphModel dx="1985" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -696,6 +696,146 @@
         </mxCell>
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="U_9mJTfz5UO1NDgdKR0D-1" source="U_9mJTfz5UO1NDgdKR0D-24" target="U_9mJTfz5UO1NDgdKR0D-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7-dbNKrstgIETqMNBl18" name="断链风险预警">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eytuUMWvgPrelhzYIndJ-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="775" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-1" target="eytuUMWvgPrelhzYIndJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-4" target="eytuUMWvgPrelhzYIndJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-4" value="实时计算上中游企业的供应能力" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="290" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-6" target="eytuUMWvgPrelhzYIndJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-6" value="根据合作上游企业和全上游企业的供应能力实时计算该企业的断链风险概率" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-7" value="断链风险超过预警值" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="725" y="480" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-8" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-7" target="eytuUMWvgPrelhzYIndJ-10">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="955" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-7" target="eytuUMWvgPrelhzYIndJ-11">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="790" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="905" y="495" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-11" value="系统中提示并给该企业发送预警邮件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eytuUMWvgPrelhzYIndJ-11" target="eytuUMWvgPrelhzYIndJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eytuUMWvgPrelhzYIndJ-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="775" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F7cHUicL9OK3q38apgbw" name="新企业入驻">
+    <mxGraphModel dx="1222" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-1" target="6Dfcr3lirKLdWCuUvu4D-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-3" value="上中下游企业选择自己所属的类型进行注册" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="270" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-3" target="6Dfcr3lirKLdWCuUvu4D-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-5" value="企业填写基本信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-5" target="6Dfcr3lirKLdWCuUvu4D-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-7" value="企业上传资质证明文件进行资质认证" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="480" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-7" target="6Dfcr3lirKLdWCuUvu4D-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-9" value="认证成功" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="485" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-10" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-9" target="6Dfcr3lirKLdWCuUvu4D-12">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1510" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-9" target="6Dfcr3lirKLdWCuUvu4D-14">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1420" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-12" value="重新上传证明文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="485" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-12" target="6Dfcr3lirKLdWCuUvu4D-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1580" y="450" />
+              <mxPoint x="1420" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-14" value="成功入驻平台，发送认证成功邮件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-14" target="6Dfcr3lirKLdWCuUvu4D-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-16" value="根据企业注册时所属类型和基本信息给该企业推荐上下游合作企业" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="680" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Dfcr3lirKLdWCuUvu4D-16" target="6Dfcr3lirKLdWCuUvu4D-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dfcr3lirKLdWCuUvu4D-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="790" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
