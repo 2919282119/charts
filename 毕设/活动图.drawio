@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.6.2081 SLBChan/11 SLBVPV/64-bit" version="26.2.15" pages="9">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="中上游智能匹配">
-    <mxGraphModel dx="5125" dy="2930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2563" dy="1465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="G4k473hNy3UlmJ6TiarO-14" value="上游—中游企业匹配" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890.0000000000005" y="610" width="1070" height="2160" as="geometry" />
+          <mxGeometry x="690.0000000000005" y="550" width="1070" height="2160" as="geometry" />
         </mxCell>
         <mxCell id="iaTla6m8owf9gjWXvr2z-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=8;" edge="1" parent="G4k473hNy3UlmJ6TiarO-14" source="G4k473hNy3UlmJ6TiarO-32" target="iaTla6m8owf9gjWXvr2z-16">
           <mxGeometry relative="1" as="geometry" />
@@ -451,138 +451,142 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WC9jFhKxyjIKSGYVOIR_" name="共享仓储">
-    <mxGraphModel dx="3176" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1464" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C_MoCRyomVMBf11L0ub7-1" value="共享仓储" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610.0000000000005" y="580" width="1170" height="880" as="geometry" />
+          <mxGeometry x="610.0000000000005" y="580" width="1170" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-2" value="server" style="swimlane;startSize=20;html=1;" parent="C_MoCRyomVMBf11L0ub7-1" vertex="1">
-          <mxGeometry y="20" width="570" height="860" as="geometry" />
+          <mxGeometry y="20" width="570" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-2" vertex="1">
+          <mxGeometry x="274.99999999999955" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-2" source="C_MoCRyomVMBf11L0ub7-8" target="C_MoCRyomVMBf11L0ub7-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.99999999999955" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-10" value="将企业闲置空间信息发布到平台上并及时更新" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-2" vertex="1">
+          <mxGeometry x="230" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-3" value="client" style="swimlane;startSize=20;html=1;" parent="C_MoCRyomVMBf11L0ub7-1" vertex="1">
-          <mxGeometry x="570" y="20" width="600" height="860" as="geometry" />
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-10" target="C_MoCRyomVMBf11L0ub7-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="109.99999999999955" y="180" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="570" y="20" width="600" height="990" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-5" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-16" target="C_MoCRyomVMBf11L0ub7-11" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="119.99999999999955" y="295" as="targetPoint" />
+            <mxPoint x="119.99999999999955" y="405" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-240" y="295" />
+              <mxPoint x="-240" y="405" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-26" target="C_MoCRyomVMBf11L0ub7-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150.00000000000045" y="420" as="targetPoint" />
+            <mxPoint x="-150.00000000000045" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-13" target="C_MoCRyomVMBf11L0ub7-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="159.99999999999955" y="670" as="targetPoint" />
+            <mxPoint x="159.99999999999955" y="780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-330" y="770" />
-              <mxPoint x="165" y="770" />
+              <mxPoint x="-330" y="880" />
+              <mxPoint x="165" y="880" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="-285.00000000000045" y="70" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-8" target="C_MoCRyomVMBf11L0ub7-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-270.00000000000045" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-10" value="将企业闲置空间信息发布到平台上并及时更新" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="-330" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-11" value="双方签订协议" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="-300.00000000000045" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="-300.00000000000045" y="550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-11" target="C_MoCRyomVMBf11L0ub7-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-260.00000000000045" y="370" as="targetPoint" />
+            <mxPoint x="-260.00000000000045" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-13" value="到期后系统给双方企业发送系统通知和邮件提醒" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="-390" y="580" width="120" height="50" as="geometry" />
+          <mxGeometry x="-390" y="690" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-15" target="C_MoCRyomVMBf11L0ub7-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="329.99999999999955" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-15" value="选中合适的闲置空间进行预约" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="269.99999999999955" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-16" value="有其他疑问" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="275" y="270" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="C_MoCRyomVMBf11L0ub7-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-16" target="C_MoCRyomVMBf11L0ub7-18" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="329.99999999999955" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-15" value="选中合适的闲置空间进行预约" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
+          <mxGeometry x="269.99999999999955" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-16" value="有其他疑问" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
+          <mxGeometry x="275" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MoCRyomVMBf11L0ub7-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-16" target="C_MoCRyomVMBf11L0ub7-18" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="329.99999999999955" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-18" value="与对方企业进行商谈，交流相关细节" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="269.99999999999955" y="380" width="120" height="40" as="geometry" />
+          <mxGeometry x="269.99999999999955" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-18" target="C_MoCRyomVMBf11L0ub7-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="329.99999999999955" y="470" as="targetPoint" />
+            <mxPoint x="329.99999999999955" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-20" value="对方在线" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="289.99999999999955" y="480" width="80" height="40" as="geometry" />
+          <mxGeometry x="289.99999999999955" y="590" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-21" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-20" target="C_MoCRyomVMBf11L0ub7-23" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="219.99999999999955" y="500" as="targetPoint" />
+            <mxPoint x="219.99999999999955" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-22" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-20" target="C_MoCRyomVMBf11L0ub7-26" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="329.99999999999955" y="580" as="targetPoint" />
+            <mxPoint x="329.99999999999955" y="690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="580" />
+              <mxPoint x="330" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-23" value="愿意等待" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="139.99999999999955" y="480" width="80" height="40" as="geometry" />
+          <mxGeometry x="139.99999999999955" y="590" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-24" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-23" target="C_MoCRyomVMBf11L0ub7-27" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="179.99999999999955" y="440" as="targetPoint" />
+            <mxPoint x="179.99999999999955" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-23" target="C_MoCRyomVMBf11L0ub7-26" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="179.99999999999955" y="570" as="targetPoint" />
+            <mxPoint x="179.99999999999955" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-26" value="【对方上线后】商讨相关细节" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="119.99999999999955" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="119.99999999999955" y="670" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="164.99999999999955" y="420" width="30" height="30" as="geometry" />
+          <mxGeometry x="164.99999999999955" y="530" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-28" value="给对方服务打分" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="219.99999999999955" y="750" width="120" height="40" as="geometry" />
+          <mxGeometry x="219.99999999999955" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-29" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="C_MoCRyomVMBf11L0ub7-3" vertex="1">
-          <mxGeometry x="399.99999999999955" y="755" width="30" height="30" as="geometry" />
+          <mxGeometry x="399.99999999999955" y="865" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C_MoCRyomVMBf11L0ub7-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="C_MoCRyomVMBf11L0ub7-3" source="C_MoCRyomVMBf11L0ub7-28" target="C_MoCRyomVMBf11L0ub7-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509.99999999999955" y="770" as="targetPoint" />
+            <mxPoint x="509.99999999999955" y="880" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O3qIMf2yWnwxli6l4Fmd-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=8;" edge="1" parent="C_MoCRyomVMBf11L0ub7-3" source="O3qIMf2yWnwxli6l4Fmd-1" target="C_MoCRyomVMBf11L0ub7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O3qIMf2yWnwxli6l4Fmd-1" value="划定区域，填写一系列参数进行仓储筛选" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" vertex="1" parent="C_MoCRyomVMBf11L0ub7-3">
+          <mxGeometry x="270" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3qIMf2yWnwxli6l4Fmd-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=8;" edge="1" parent="C_MoCRyomVMBf11L0ub7-1" source="C_MoCRyomVMBf11L0ub7-10" target="O3qIMf2yWnwxli6l4Fmd-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
