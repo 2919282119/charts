@@ -714,7 +714,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KIBuUQBxBipPXdFoy2fU" name="数据分析">
-    <mxGraphModel dx="3176" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -741,7 +741,7 @@
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" source="U_9mJTfz5UO1NDgdKR0D-8" target="U_9mJTfz5UO1NDgdKR0D-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U_9mJTfz5UO1NDgdKR0D-8" value="整合各大电商平台数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
+        <mxCell id="U_9mJTfz5UO1NDgdKR0D-8" value="整合分销渠道数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
           <mxGeometry x="69.99999999999955" y="100" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" source="U_9mJTfz5UO1NDgdKR0D-10" target="U_9mJTfz5UO1NDgdKR0D-12" edge="1">
@@ -767,7 +767,7 @@
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" source="U_9mJTfz5UO1NDgdKR0D-16" target="U_9mJTfz5UO1NDgdKR0D-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U_9mJTfz5UO1NDgdKR0D-16" value="分析数据，发现热销产品和趋势" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
+        <mxCell id="U_9mJTfz5UO1NDgdKR0D-16" value="分析数据，发现热销产品和热销渠道" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
           <mxGeometry x="72.5" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U_9mJTfz5UO1NDgdKR0D-6" source="U_9mJTfz5UO1NDgdKR0D-18" target="U_9mJTfz5UO1NDgdKR0D-19" edge="1">
@@ -775,7 +775,7 @@
             <mxPoint x="132.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U_9mJTfz5UO1NDgdKR0D-18" value="将分析结果回馈给中游的智能单品厂商和全屋智能厂商" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
+        <mxCell id="U_9mJTfz5UO1NDgdKR0D-18" value="将分析结果回馈给中游的智能单品厂商" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=40;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
           <mxGeometry x="72.5" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U_9mJTfz5UO1NDgdKR0D-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="U_9mJTfz5UO1NDgdKR0D-6" vertex="1">
