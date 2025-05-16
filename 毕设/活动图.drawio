@@ -958,11 +958,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PouH-MXT1nmibOo5Jq8O" name="智能客服">
-    <mxGraphModel dx="3970" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P9e86AwuO8s_7_i-a31N-1" value="智能客服" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+        <mxCell id="P9e86AwuO8s_7_i-a31N-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;智能客服&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="860" width="760" height="550" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="P9e86AwuO8s_7_i-a31N-1" source="P9e86AwuO8s_7_i-a31N-8" target="P9e86AwuO8s_7_i-a31N-11" edge="1">
@@ -970,7 +970,7 @@
             <mxPoint x="320" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-3" value="企业A（咨询企业）" style="swimlane;startSize=20;html=1;" parent="P9e86AwuO8s_7_i-a31N-1" vertex="1">
+        <mxCell id="P9e86AwuO8s_7_i-a31N-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;企业A（咨询企业）&lt;/font&gt;" style="swimlane;startSize=20;html=1;" parent="P9e86AwuO8s_7_i-a31N-1" vertex="1">
           <mxGeometry y="20" width="370" height="530" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-3" vertex="1">
@@ -981,28 +981,37 @@
             <mxPoint x="185" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-6" value="要了解B企业的情况，发送询问消息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-3" vertex="1">
-          <mxGeometry x="125" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="P9e86AwuO8s_7_i-a31N-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;要了解B企业的情况，发送询问消息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-3" vertex="1">
+          <mxGeometry x="102.5" y="110" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="P9e86AwuO8s_7_i-a31N-3" source="P9e86AwuO8s_7_i-a31N-6" target="P9e86AwuO8s_7_i-a31N-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-8" value="对方在线" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-3" vertex="1">
+        <mxCell id="P9e86AwuO8s_7_i-a31N-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;对方在线&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-3" vertex="1">
           <mxGeometry x="135" y="220" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-9" value="企业B（被咨询企业）" style="swimlane;startSize=20;html=1;" parent="P9e86AwuO8s_7_i-a31N-1" vertex="1">
+        <mxCell id="P9e86AwuO8s_7_i-a31N-16" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="P9e86AwuO8s_7_i-a31N-1" source="P9e86AwuO8s_7_i-a31N-8" target="P9e86AwuO8s_7_i-a31N-12" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="360" />
+              <mxPoint x="445" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9e86AwuO8s_7_i-a31N-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;企业B（被咨询企业）&lt;/font&gt;" style="swimlane;startSize=20;html=1;" parent="P9e86AwuO8s_7_i-a31N-1" vertex="1">
           <mxGeometry x="370" y="20" width="390" height="530" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="P9e86AwuO8s_7_i-a31N-9" source="P9e86AwuO8s_7_i-a31N-11" target="P9e86AwuO8s_7_i-a31N-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-11" value="解答对方问题，讨论合作细节" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
-          <mxGeometry x="90" y="225" width="170" height="30" as="geometry" />
+        <mxCell id="P9e86AwuO8s_7_i-a31N-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;解答对方问题，讨论合作细节&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
+          <mxGeometry x="80" y="220" width="140" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-12" value="智能助手读取B企业的基本信息来回答A的问题" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
-          <mxGeometry x="100" y="320" width="150" height="40" as="geometry" />
+        <mxCell id="P9e86AwuO8s_7_i-a31N-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;智能助手读取B企业的基本信息来回答A的问题&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
+          <mxGeometry x="75" y="320" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="P9e86AwuO8s_7_i-a31N-9" source="P9e86AwuO8s_7_i-a31N-12" target="P9e86AwuO8s_7_i-a31N-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1010,18 +1019,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
-          <mxGeometry x="300" y="225" width="30" height="30" as="geometry" />
+          <mxGeometry x="300" y="223.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P9e86AwuO8s_7_i-a31N-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="P9e86AwuO8s_7_i-a31N-9" vertex="1">
           <mxGeometry x="160" y="420" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="P9e86AwuO8s_7_i-a31N-16" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="P9e86AwuO8s_7_i-a31N-1" source="P9e86AwuO8s_7_i-a31N-8" target="P9e86AwuO8s_7_i-a31N-12" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="185" y="400" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="185" y="360" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
