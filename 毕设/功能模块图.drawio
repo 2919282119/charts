@@ -586,10 +586,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UvKEh3BRHI3Ay9cTagFw" name="第 5 页">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BbFEClisNdULw1hsRX_O-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;textDirection=vertical-lr;startFill=0;endArrow=none;" edge="1" parent="1" source="BbFEClisNdULw1hsRX_O-4" target="BbFEClisNdULw1hsRX_O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;textDirection=vertical-lr;startFill=0;endArrow=none;" edge="1" parent="1" source="BbFEClisNdULw1hsRX_O-4" target="BbFEClisNdULw1hsRX_O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;textDirection=vertical-lr;startFill=0;endArrow=none;" edge="1" parent="1" source="BbFEClisNdULw1hsRX_O-4" target="BbFEClisNdULw1hsRX_O-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-4" value="客户管理" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-6" value="&lt;font&gt;原材料供应商对接&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="590" y="580" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-7" value="智能设备制造商对接" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="660" y="580" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;textDirection=vertical-lr;startFill=0;endArrow=none;" edge="1" parent="1" source="BbFEClisNdULw1hsRX_O-15" target="BbFEClisNdULw1hsRX_O-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;textDirection=vertical-lr;startFill=0;endArrow=none;" edge="1" parent="1" source="BbFEClisNdULw1hsRX_O-15" target="BbFEClisNdULw1hsRX_O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-15" value="物流服务商需求分析" style="rounded=0;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;container=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="150" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-16" value="&lt;span&gt;物流订单管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="870" y="300" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BbFEClisNdULw1hsRX_O-26" value="分销商对接" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="730" y="580" width="30" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
