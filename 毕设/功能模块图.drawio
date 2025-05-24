@@ -409,7 +409,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jEOLbOFetjfRqPWUJ7ZN-23" value="&lt;font&gt;智能设备制造商&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;container=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="220" width="150" height="45" as="geometry" />
+          <mxGeometry x="800" y="240" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Re3BaxM-y32Mg5T40Bdb-2" value="&lt;span&gt;上游硬件厂商对接&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;textDirection=ltr;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="610" y="680" width="30" height="200" as="geometry" />
