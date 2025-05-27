@@ -1,9 +1,254 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="第 1 页" id="V6S8e4o2pUcQillUat_T">
-    <mxGraphModel dx="786" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cqukmQUU46vdeKufd26A-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-1" target="cqukmQUU46vdeKufd26A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-1" value="第一阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-2" target="cqukmQUU46vdeKufd26A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-2" value="第二阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-4" target="cqukmQUU46vdeKufd26A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-4" value="第三阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="335" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-6" target="cqukmQUU46vdeKufd26A-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-6" value="第四阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-8" value="第五阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="585" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-100" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-11" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="260" y="425" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-15" target="cqukmQUU46vdeKufd26A-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-15" value="问题提出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-80" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-16" value="目前智能家居产业存在的问题、国内外智能家具平台现状、可行性分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-40" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-19" value="信息不对称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry x="8" y="22" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-21" value="行业痛点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry x="45" y="1" width="60" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-22" value="协作效率低" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry x="8" y="50" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-23" value="数据孤岛" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry x="8" y="80" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-24" value="生态封闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-25">
+          <mxGeometry x="8" y="110" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-36" value="三星SmartThings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry x="8" y="22" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-37" value="现有平台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry x="45" y="1" width="60" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-38" value="Apple HomeKit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry x="8" y="50" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-39" value="小米AIOT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry x="8" y="80" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-40" value="涂鸦智能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cqukmQUU46vdeKufd26A-34">
+          <mxGeometry x="8" y="110" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="70" as="sourcePoint" />
+            <mxPoint x="600" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-42" value="比较研究法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-43" target="cqukmQUU46vdeKufd26A-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-43" value="查阅国内外智能家居行业相关文献" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-44" target="cqukmQUU46vdeKufd26A-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-44" value="智能家居行业专业人员访谈、问题收集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-45" value="Vue3+&lt;div&gt;ElementPlus&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-46" target="cqukmQUU46vdeKufd26A-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-46" target="cqukmQUU46vdeKufd26A-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-46" target="cqukmQUU46vdeKufd26A-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-46" value="智能家居产业互联网平台原型构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="300" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-47" value="SpringBoot+&lt;div&gt;MybatisPlus&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-48" target="cqukmQUU46vdeKufd26A-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-48" value="供需匹配技术" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="365" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="331" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="375" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="419" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="462" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="506" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-49" target="cqukmQUU46vdeKufd26A-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="549" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-49" value="智能家居产业互联网平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-50" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-50" value="智能匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316.25" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-51" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-51" value="即时通讯" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.75" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-52" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-52" value="共享仓储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403.75" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-53" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-53" value="数据分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446.75" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-54" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-54" value="智能客服" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490.75" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-55" target="cqukmQUU46vdeKufd26A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-55" value="众创设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="533.75" y="494" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-56" value="智能家居产业互联网平台的设计与实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="590" width="212.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-18" target="cqukmQUU46vdeKufd26A-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="170" />
+              <mxPoint x="440" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqukmQUU46vdeKufd26A-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqukmQUU46vdeKufd26A-35" target="cqukmQUU46vdeKufd26A-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="170" />
+              <mxPoint x="441" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
